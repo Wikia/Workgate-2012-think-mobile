@@ -4,19 +4,18 @@
 body {
 	font-family: 'Ubuntu', sans serif;
 	font-size: 11pt;
-	margin: 30px auto 0;
+	/*margin: 30px auto 0;
 	padding: 20px;
-	width: 790px;
+	width: 790px;*/
 }
 
 button, input[type=button], input[type=submit], .button {
 	background-color: #ff2035;
 	border: none;
 	border-radius: 5px;
-	color: #fff;
+	color: #ffffff;
 	font-size: 12pt;
 	font-weight: bold;
-	/*display: block;*/
 	padding: 10px;
 }
 
@@ -33,8 +32,29 @@ button, input[type=button], input[type=submit], .button {
 	text-decoration: underline;
 }
 
+.content .dashboard > tbody > tr > td {
+	border-left: 1px solid #b3b3b3;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.content .dashboard > tbody > tr > td:first-child {
+	border-left: none;
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.content .dashboard > tbody > tr > td:last-child {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
 .content figure {
-	background-color: #fff;
+	background-color: #ffffff;
 	box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.65);
 	display: inline-block;
 	margin: 10px;
@@ -89,7 +109,7 @@ header > nav > .menu > li {
 }
 
 header > nav > .menu > li > a:link, header > nav > .menu > li > a:visited, header > nav > .menu > li > a:active {
-	color: #fff;
+	color: #ffffff;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -119,6 +139,7 @@ header > nav > .menu > li > a:link, header > nav > .menu > li > a:visited, heade
 }
 
 .content {
+	background-color: #ffffff;
 	margin: 50px 0;
 	padding: 0 30px;
 }
@@ -139,7 +160,7 @@ footer > nav > .menu.credits > li:last-child:after {
 }
 
 header .menu {
-	margin-left: 529px;
+	margin-left: 525px;
 }
 
 .logo {
@@ -151,4 +172,17 @@ header .menu {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.centered-layout {
+	margin: 30px auto;
+	width: 790px;
+}
+
+.page {
+	background-color: #ffffff;
+	box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.65);
+	min-width: 850px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
