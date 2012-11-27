@@ -1,0 +1,154 @@
+/** Tags **/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300&subset=latin,latin-ext);
+
+body {
+	font-family: 'Ubuntu', sans serif;
+	font-size: 11pt;
+	margin: 30px auto 0;
+	padding: 20px;
+	width: 790px;
+}
+
+button, input[type=button], input[type=submit], .button {
+	background-color: #ff2035;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 12pt;
+	font-weight: bold;
+	/*display: block;*/
+	padding: 10px;
+}
+
+.content a:link, a:active {
+	color: #ff2035;
+	text-decoration: none;
+}
+
+.content a:visited {
+	color: #b3b3b3;
+}
+
+.content a:hover {
+	text-decoration: underline;
+}
+
+.content figure {
+	background-color: #fff;
+	box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.65);
+	display: inline-block;
+	margin: 10px;
+	padding: 8px;
+	vertical-align: top;
+}
+
+.content figure > figcaption {
+	color: #b3b3b3;
+	font-size: 10pt;
+	font-style: italic;
+	text-align: center;
+}
+
+footer {
+	color: #b3b3b3;
+	font-size: 9pt;
+}
+
+footer a:link, footer a:visited, footer a:active {
+	color: #b3b3b3;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #FF2035;
+}
+
+footer > nav > .menu > li {
+	margin-left:10px;
+}
+
+footer > nav > .menu > li:first-child {
+	margin-left:0;
+}
+
+html {
+	background-image: url(../images/pattern_small.png);
+}
+
+.menu > li {
+	float: left;
+}
+
+header > nav > .menu > li {
+	border-radius: 5px;
+	display: block;
+	font-size: 12pt;
+	margin: 17px 0 0 13px;
+	padding: 10px;
+}
+
+header > nav > .menu > li > a:link, header > nav > .menu > li > a:visited, header > nav > .menu > li > a:active {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/** Casses **/
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.color1 {
+	background-color: #0087f9;
+}
+
+.color2 {
+	background-color: #f5b300;
+}
+
+.color3 {
+	background-color: #00a35f;
+}
+
+.content {
+	margin: 50px 0;
+	padding: 0 30px;
+}
+
+footer > nav > .menu.credits, footer > nav > .menu.social {
+	display: table; /*force center alignment with floating content*/
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+footer > nav > .menu.credits > li:after {
+	content: "|";
+	padding-left: 10px;
+}
+
+footer > nav > .menu.credits > li:last-child:after {
+	content: "";
+}
+
+header .menu {
+	margin-left: 529px;
+}
+
+.logo {
+	display: block;
+	float: left;
+}
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="350"
+   height="120"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/federico/Projects/workgate/images/logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-267.23706 : 157.76047 : 1"
+       inkscape:vp_y="0 : 284.45004 : 0"
+       inkscape:vp_z="288.70894 : 237.43222 : 1"
+       inkscape:persp3d-origin="270.59186 : 82.31913 : 1"
+       id="perspective3025" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="85.26313"
+     inkscape:cy="144.78433"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="112,388"
+       id="guide3987" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="135,96"
+       id="guide3989" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="145,22"
+       id="guide3993" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-932.36218)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path3859"
+       style="fill:#0087f9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 19.25014,974.64307 41.78655,11.24194 29.71317,-21.72808 -40.344606,-7.49031 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3861"
+       style="fill:#00a35f;fill-opacity:0.94117647;fill-rule:evenodd;stroke:none"
+       d="m 62.03669,987.88501 0,43.17269 29.71317,-27.3256 0,-37.57517 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3863"
+       style="fill:#f5b300;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 17.25014,976.64307 41.78655,11.24194 0,43.17269 -41.78655,-16.7627 z" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:500;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Ubuntu Medium"
+       x="112"
+       y="991.36218"
+       id="text3971"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="112"
+         y="991.36218"
+         id="tspan3975"
+         style="-inkscape-font-specification:Ubuntu Medium;font-family:Ubuntu;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal">AWESOME</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3979"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Ubuntu"
+       transform="translate(-81,919.36218)"><flowRegion
+         id="flowRegion3981"><rect
+           id="rect3983"
+           width="185"
+           height="54"
+           x="193"
+           y="78"
+           style="font-style:normal;-inkscape-font-specification:Ubuntu" /></flowRegion><flowPara
+         id="flowPara3985"
+         style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">Speakers</flowPara></flowRoot>  </g>
+</svg>
