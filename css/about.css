@@ -1,3 +1,73 @@
 .content section p {
 	text-align: justify;
 }
+
+@media screen and (max-width:850px) {
+	* {
+		box-sizing: border-box;
+	}
+
+	html {
+		width: 100%;
+	}
+
+	body {
+		width: 100%;
+		padding: 5px;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	.menu {
+		display: inline-block;
+	}
+
+	footer > nav > .menu.credits, footer > nav > .menu.social {
+		display: block;
+	}
+
+	header .menu {
+		margin-left: 0;
+	}
+
+	.content {
+		padding: 0;
+	}
+
+	.menu > li {
+		display: inline-block;
+		float: none;
+	}
+
+	header > nav > .menu > li {
+		display: inline-block;
+	}
+
+	iframe, img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.page {
+		padding: 5px 10px;
+	}
+
+	.centered-layout {
+		width: auto;
+	}
+
+	header.centered-layout {
+		margin: 20px 10px;
+	}
+
+	.content figure {
+		display: table;
+	}
+
+	.content .float-right {
+		float: none;
+		margin: 10px auto;
+	}
+}
