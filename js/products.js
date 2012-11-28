@@ -56,6 +56,13 @@ $(function () {
 			price.html('$ ' + data[p].price.toString().replace('.', ','));
 			e.append(price);
 
+			var add = $('<button>');
+			e.append(add);
+			add.html('Buy now');
+			add.click(function () {
+				alert('The item will be shipped to you over the next 2 working days.\n\nThanks for choosing our products.');
+			});
+
 			if (window.location.hash) {
 				var target = $(window.location.hash);
 

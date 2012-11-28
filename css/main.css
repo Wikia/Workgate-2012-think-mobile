@@ -82,7 +82,7 @@ button, input[type=button], input[type=submit], .button {
 
 .content h2 {
 	font-size: 12pt;
-	margin: 8px 0;
+	margin: 20px 0 8px;
 }
 
 .content a:link, a:active {
@@ -113,6 +113,11 @@ button, input[type=button], input[type=submit], .button {
 	font-size: 10pt;
 	font-style: italic;
 	text-align: center;
+}
+
+.content .float-right {
+	float: right;
+	margin: 0 0 0 20px;
 }
 
 .content p {

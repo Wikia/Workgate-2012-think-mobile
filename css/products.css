@@ -46,9 +46,10 @@
 .content .products li .name {
 	font-size: 14pt;
 	font-weight: bold;
+	margin-top: 15px;
 }
 
-.content .products .description {
+.content .products li .description {
 	text-align: justify;
 }
 .content .products li .price {
@@ -56,4 +57,9 @@
 	font-style: italic;
 	font-weight: bold;
 	text-align: right;
+}
+
+.content .products li button {
+	display: block;
+	margin: 20px auto 0;
 }
