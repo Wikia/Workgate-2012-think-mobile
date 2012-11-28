@@ -11,8 +11,8 @@
 }
 
 .slides_container div span {
-	bottom: 10px;
+	bottom: 20px;
 	display: block;
 	position: absolute;
-	right: 10px;
+	right: 20px;
 }

@@ -1,12 +1,12 @@
-/** Tags **/
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300&subset=latin,latin-ext);
+
+html {
+	background-image: url(../images/pattern_small.png);
+}
 
 body {
 	font-family: 'Ubuntu', sans serif;
 	font-size: 11pt;
-	/*margin: 30px auto 0;
-	padding: 20px;
-	width: 790px;*/
 }
 
 button, input[type=button], input[type=submit], .button {
@@ -19,6 +19,62 @@ button, input[type=button], input[type=submit], .button {
 	padding: 10px;
 }
 
+.color1 {
+	background-color: #0087f9;
+}
+
+.color2 {
+	background-color: #f5b300;
+}
+
+.color3 {
+	background-color: #00a35f;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.centered-layout {
+	margin: 30px auto;
+	width: 790px;
+}
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu > li {
+	float: left;
+}
+
+.page {
+	background-color: #ffffff;
+	box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.65);
+	min-width: 850px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.content {
+	background-color: #ffffff;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0 30px;
+}
+
+.content h2 {
+	font-size: 12pt;
+	margin: 8px 0;
+}
+
 .content a:link, a:active {
 	color: #ff2035;
 	text-decoration: none;
@@ -29,28 +85,8 @@ button, input[type=button], input[type=submit], .button {
 }
 
 .content a:hover {
+	color: #ff2035;
 	text-decoration: underline;
-}
-
-.content .dashboard > tbody > tr > td {
-	border-left: 1px solid #b3b3b3;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 10px;
-	text-align: justify;
-	vertical-align: top;
-}
-
-.content .dashboard > tbody > tr > td:first-child {
-	border-left: none;
-	padding-left: 0;
-	padding-right: 20px;
-}
-
-.content .dashboard > tbody > tr > td:last-child {
-	padding-left: 20px;
-	padding-right: 0;
 }
 
 .content figure {
@@ -69,120 +105,6 @@ button, input[type=button], input[type=submit], .button {
 	text-align: center;
 }
 
-footer {
-	color: #b3b3b3;
-	font-size: 9pt;
-}
-
-footer a:link, footer a:visited, footer a:active {
-	color: #b3b3b3;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-footer a:hover {
-	color: #FF2035;
-}
-
-footer > nav > .menu > li {
-	margin-left:10px;
-}
-
-footer > nav > .menu > li:first-child {
-	margin-left:0;
-}
-
-html {
-	background-image: url(../images/pattern_small.png);
-}
-
-.menu > li {
-	float: left;
-}
-
-header > nav > .menu > li {
-	border-radius: 5px;
-	display: block;
-	font-size: 12pt;
-	margin: 17px 0 0 13px;
-	padding: 10px;
-}
-
-header > nav > .menu > li > a:link, header > nav > .menu > li > a:visited, header > nav > .menu > li > a:active {
-	color: #ffffff;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-
-/** Casses **/
-
-.clearfix:after {
-	clear: both;
-	content: ".";
-	display: block;
-	height: 0;
-	line-height: 0;
-	visibility: hidden;
-}
-
-.color1 {
-	background-color: #0087f9;
-}
-
-.color2 {
-	background-color: #f5b300;
-}
-
-.color3 {
-	background-color: #00a35f;
-}
-
-.content {
-	background-color: #ffffff;
-	margin: 50px 0;
-	padding: 0 30px;
-}
-
-footer > nav > .menu.credits, footer > nav > .menu.social {
-	display: table; /*force center alignment with floating content*/
-	margin: 0 auto;
-	padding-top: 15px;
-}
-
-footer > nav > .menu.credits > li:after {
-	content: "|";
-	padding-left: 10px;
-}
-
-footer > nav > .menu.credits > li:last-child:after {
-	content: "";
-}
-
-header .menu {
-	margin-left: 525px;
-}
-
-.logo {
-	display: block;
-	float: left;
-}
-
-.menu {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-.centered-layout {
-	margin: 30px auto;
-	width: 790px;
-}
-
-.page {
-	background-color: #ffffff;
-	box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.65);
-	min-width: 850px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+.content p {
+	margin: 8px 0;
 }

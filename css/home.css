@@ -1,0 +1,25 @@
+.content .dashboard > tbody > tr > td {
+	border-left: 1px solid #b3b3b3;
+	padding-left: 20px;
+	padding-right: 20px;
+	vertical-align: top;
+}
+
+.content .dashboard > tbody > tr > td p.description {
+	text-align: justify;
+}
+
+.content .dashboard > tbody > tr > td p.read-more {
+	text-align: right;
+}
+
+.content .dashboard > tbody > tr > td:first-child {
+	border-left: none;
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.content .dashboard > tbody > tr > td:last-child {
+	padding-left: 20px;
+	padding-right: 0;
+}

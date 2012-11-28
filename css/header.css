@@ -1,0 +1,22 @@
+header .logo {
+	display: block;
+	float: left;
+}
+
+header > nav > .menu > li {
+	border-radius: 5px;
+	display: block;
+	font-size: 12pt;
+	margin: 17px 0 0 13px;
+	padding: 10px;
+}
+
+header > nav > .menu > li > a:link, header > nav > .menu > li > a:visited, header > nav > .menu > li > a:active {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+header .menu {
+	margin-left: 525px;
+}
