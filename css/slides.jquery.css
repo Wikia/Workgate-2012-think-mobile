@@ -1,29 +1,31 @@
-.slides_container {
-	overflow: scroll;
-}
-
-.slides_container div {
+#slides {
+	overflow: hidden;
 	display: block;
+
+	margin: 20px;
+
 	position: relative;
 }
 
-.slides_container div a {
-	bottom: 20px;
-	display: block;
+#slides div {
 	position: absolute;
-	right: 20px;
+	opacity: 0;
+
+	-webkit-transform: rotate(180deg) scale(5);
+
+	-webkit-transition: all 1s;
 }
 
-@media screen and (max-width: 850px) {
-	.slides_container {
-		width: 100%;
-	}
+#slides div:last-child{
+	position: relative;
+}
 
-	.slides_control {
-		max-width: 100%;
-	}
+#slides .current {
+	opacity: 1;
 
-	.slides_container div {
-		width: 100%;
-	}
+	-webkit-transform: translateX(0);
+}
+
+#slides a {
+	float: left;
 }

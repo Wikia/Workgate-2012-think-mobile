@@ -1,13 +1,20 @@
 $(function(){
-	$('#slides').slides({
-		generatePagination: false,
-		pagination: false,
-		pause: 2500,
-		play: 5000,
-		randomize: true,
-		effect: 'fade',
-		crossfade: true,
-		autoHeight:true,
-		autoHeightSpeed: 10
-	});
+	var slides = $('#slides > div'),
+		l = slides.length-1,
+		current = 0;
+
+	slides.eq(0).addClass('current');
+
+	setInterval(function(){
+
+		if(current < l) {
+			slides.filter('.current').removeClass('current').next().addClass('current');
+			current++;
+		} else {
+			slides.filter('.current').removeClass('current');
+			slides.eq(0).addClass('current');
+			current = 0;
+		}
+
+	}, 4000);
 });
