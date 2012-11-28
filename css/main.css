@@ -63,7 +63,6 @@ button, input[type=button], input[type=submit], .button {
 .page {
 	background-color: #ffffff;
 	box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.65);
-	min-width: 850px;
 	padding-top: 20px;
 	padding-bottom: 30px;
 }
@@ -122,4 +121,75 @@ button, input[type=button], input[type=submit], .button {
 
 .content p {
 	margin: 8px 0;
+}
+
+@media screen and (max-width:850px) {
+	* {
+		box-sizing: border-box;
+	}
+
+	html {
+		width: 100%;
+	}
+
+	body {
+		width: 100%;
+		padding: 5px;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	.menu {
+		display: inline-block;
+	}
+
+	footer > nav > .menu.credits, footer > nav > .menu.social {
+		display: block;
+	}
+
+	header .menu {
+		margin-left: 0;
+	}
+
+	.content {
+		padding: 0;
+	}
+
+	.menu > li {
+		display: inline-block;
+		float: none;
+	}
+
+	header > nav > .menu > li {
+		display: inline-block;
+		padding: 5px 10px;
+	}
+
+	iframe, img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.page {
+		padding: 5px 10px;
+	}
+
+	.centered-layout {
+		width: auto;
+	}
+
+	header.centered-layout {
+		margin: 20px 10px;
+	}
+
+	.content figure {
+		display: table;
+	}
+
+	.content .float-right {
+		float: none;
+		margin: 10px auto;
+	}
 }
