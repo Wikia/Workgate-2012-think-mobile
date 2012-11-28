@@ -13,7 +13,7 @@ function fetchProducts(callback) {
 		o['price'] = parseFloat( Math.floor(Math.random() * 1001) + '.' + Math.floor(Math.random() * 99) );
 		o['image'] = 'images/' + images[i] + '.jpg?' + Math.floor(Math.random() * 1000000001);
 
-		products['AS-' + (x * 100)] = $.extend({}, o);
+		products['AS-' + ((x + 1) * 100)] = $.extend({}, o);
 
 		if (i === 2) {
 			i = 0;

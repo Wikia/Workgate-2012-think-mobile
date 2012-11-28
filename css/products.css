@@ -27,14 +27,14 @@
 .content .products {
 	list-style: none;
 	margin: 0;
-	padding-left: 35px;
+	padding: 0;
 }
 
 .content .products li {
 	display: block;
 	float: left;
 	font-size: 9pt;
-	margin: 20px;
+	margin: 31px;
 	width: 200px;
 }
 
