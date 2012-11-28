@@ -10,7 +10,7 @@
 	position: relative;
 }
 
-.slides_container div span {
+.slides_container div a {
 	bottom: 20px;
 	display: block;
 	position: absolute;

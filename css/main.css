@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300&subset=latin,latin-ext);
+/*@import url(http://fonts.googleapis.com/css?family=Ubuntu:300&subset=latin,latin-ext);*/
 
 html {
 	background-image: url(../images/pattern_small.png);
@@ -17,6 +17,11 @@ button, input[type=button], input[type=submit], .button {
 	font-size: 12pt;
 	font-weight: bold;
 	padding: 10px;
+}
+
+.button:link, .button:active, .button:visited, .button:hover {
+	color: #ffffff !important;
+	text-decoration: none !important;
 }
 
 .color1 {
@@ -68,6 +73,11 @@ button, input[type=button], input[type=submit], .button {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 0 30px;
+}
+
+.content h1 {
+	font-size: 20pt;
+	margin: 8px 0;
 }
 
 .content h2 {
