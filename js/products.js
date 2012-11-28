@@ -46,11 +46,6 @@ $(function () {
 			s.addClass('name');
 			s.html(p);
 
-			var d = $('<p>');
-			d.addClass('description');
-			d.html(data[p].description);
-			e.append(d);
-
 			var price = $('<span>');
 			price.addClass('price');
 			price.html('$ ' + data[p].price.toString().replace('.', ','));
@@ -63,6 +58,11 @@ $(function () {
 				alert('The item will be shipped to you over the next 2 working days.\n\nThanks for choosing our products.');
 			});
 
+			var d = $('<p>');
+			d.addClass('description');
+			d.html(data[p].description);
+			e.append(d);
+
 			if (window.location.hash) {
 				var target = $(window.location.hash);
 
@@ -72,4 +72,8 @@ $(function () {
 			}
 		}
 	});
+
+	$('.products li').click(function(){
+		$(this).toggleClass('open');
+	})
 });

@@ -52,7 +52,7 @@
 .content .products li .description {
 	text-align: justify;
 }
-.content .products li .price {
+.content li .price {
 	display: block;
 	font-style: italic;
 	font-weight: bold;
@@ -64,8 +64,11 @@
 	margin: 20px auto 0;
 }
 
+
 @media screen and (max-width:560px) {
 	.content .products > li {
+		position: relative;
+
 		width: 100%;
 		border-bottom: 1px solid #E3E3E3;
 
@@ -85,20 +88,29 @@
 	}
 
 	.description {
-		display: none;
+		-webkit-transition: all .5s;
+
+		opacity: 0;
+		height: 0;
+
+		line-height: 1em;
+		overflow: hidden;
 	}
 
 	.content .products > li .name {
 		font-size: 1em;
 	}
 
-	.content .products > li .price {
+	.content li .price {
 		display: none;
 	}
 
 	.content .products > li button {
-		float: right;
 		margin: 10px;
+
+		position: absolute;
+		right: 0;
+		top: 0;
 	}
 }
 
@@ -107,4 +119,14 @@
 		display: inline-block;
 		margin-left: 5%;
 	}
+}
+
+.content .products > li.open .description {
+	opacity: 1;
+	height: auto;
+	max-height: 500px;
+}
+
+.content .open .price {
+	display: block;
 }
