@@ -1,8 +1,5 @@
 .slides_container {
-	height: 500px;
-	margin-bottom: 40px;
 	overflow: scroll;
-	width: 730px;
 }
 
 .slides_container div {
@@ -15,4 +12,18 @@
 	display: block;
 	position: absolute;
 	right: 20px;
+}
+
+@media screen and (max-width: 850px) {
+	.slides_container {
+		width: 100%;
+	}
+
+	.slides_control {
+		max-width: 100%;
+	}
+
+	.slides_container div {
+		width: 100%;
+	}
 }

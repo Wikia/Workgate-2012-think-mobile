@@ -1,25 +1,36 @@
-.content .dashboard > tbody > tr > td {
+.content .dashboard > div {
 	border-left: 1px solid #b3b3b3;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 10px;
 	vertical-align: top;
 }
 
-.content .dashboard > tbody > tr > td p.description {
+.content .dashboard > div p.description {
 	text-align: justify;
 }
 
-.content .dashboard > tbody > tr > td p.read-more {
+.content .dashboard > div p.read-more {
 	text-align: right;
 }
 
-.content .dashboard > tbody > tr > td:first-child {
+.content .dashboard > div:first-child {
 	border-left: none;
-	padding-left: 0;
-	padding-right: 20px;
 }
 
-.content .dashboard > tbody > tr > td:last-child {
-	padding-left: 20px;
-	padding-right: 0;
+.dashboard > div {
+	display: inline-block;
+	max-width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+	.content .dashboard > div {
+		display: block;
+		max-width: 100%;
+
+		border-left: none;
+		border-bottom: 1px solid #b3b3b3;
+	}
+
+	.content .dashboard > div:last-child {
+		border-bottom: none;
+	}
 }
