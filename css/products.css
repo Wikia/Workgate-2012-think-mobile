@@ -67,15 +67,11 @@
 @media screen and (max-width:560px) {
 	.content .products > li {
 		width: 100%;
-		float: none;
-		border-bottom: 1px solid grey;
+		border-bottom: 1px solid #E3E3E3;
 
-		padding: 0;
 		margin: 0;
 
 		min-height: 60px;
-
-		position: relative;
 
 		font-size: 1em;
 		line-height: 60px;
@@ -103,5 +99,12 @@
 	.content .products > li button {
 		float: right;
 		margin: 10px;
+	}
+}
+
+@media screen and (min-width:330px) {
+	.content .products > li .price {
+		display: inline-block;
+		margin-left: 5%;
 	}
 }
