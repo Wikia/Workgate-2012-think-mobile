@@ -1,0 +1,37 @@
+footer {
+	color: #b3b3b3;
+	font-size: 9pt;
+}
+
+footer a:link, footer a:visited, footer a:active {
+	color: #b3b3b3;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #FF2035;
+}
+
+footer > nav > .menu > li {
+	margin-left:10px;
+}
+
+footer > nav > .menu > li:first-child {
+	margin-left:0;
+}
+
+footer > nav > .menu.credits, footer > nav > .menu.social {
+	display: table; /*force center alignment with floating content*/
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+footer > nav > .menu.credits > li:after {
+	content: "|";
+	padding-left: 10px;
+}
+
+footer > nav > .menu.credits > li:last-child:after {
+	content: "";
+}

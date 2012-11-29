@@ -1,0 +1,18 @@
+.slides_container {
+	height: 500px;
+	margin-bottom: 40px;
+	overflow: scroll;
+	width: 730px;
+}
+
+.slides_container div {
+	display: block;
+	position: relative;
+}
+
+.slides_container div a {
+	bottom: 20px;
+	display: block;
+	position: absolute;
+	right: 20px;
+}
