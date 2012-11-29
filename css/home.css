@@ -1,36 +1,36 @@
-.content .dashboard > div {
+#dash {
+	margin-top: 20px;
+}
+
+.dsh-box {
 	border-left: 1px solid #b3b3b3;
-	padding: 10px;
+	display: inline-block;
+	max-width: 30%;
+	padding: 0 10px;
 	vertical-align: top;
 }
 
-.content .dashboard > div p.description {
+.description {
 	text-align: justify;
 }
 
-.content .dashboard > div p.read-more {
+.read-more {
 	text-align: right;
 }
 
-.content .dashboard > div:first-child {
+.dsh-box:first-child {
 	border-left: none;
 }
 
-.dashboard > div {
-	display: inline-block;
-	max-width: 30%;
-}
-
 @media screen and (max-width: 600px) {
-	.content .dashboard > div {
+	.dsh-box {
 		display: block;
 		max-width: 100%;
-
 		border-left: none;
 		border-bottom: 1px solid #b3b3b3;
 	}
 
-	.content .dashboard > div:last-child {
+	.dsh-box:last-child {
 		border-bottom: none;
 	}
 }

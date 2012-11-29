@@ -1,13 +1,9 @@
 $(function(){
-	$('#slides').slides({
-		generatePagination: false,
-		pagination: false,
-		pause: 2500,
-		play: 5000,
-		randomize: true,
-		effect: 'fade',
-		crossfade: true,
-		autoHeight:true,
-		autoHeightSpeed: 10
-	});
+	 var mySwiper = $('#swpr').swiper({
+		autoPlay: 5000,
+		slideClass: 'sld',
+		speed: 750,
+		mode: 'horizontal',
+		wrapperClass: 'slds'
+	 });
 });
